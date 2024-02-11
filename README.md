@@ -1,5 +1,5 @@
 ### EX1 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
-### DATE: 
+### DATE:11.2.24 
 ### AIM: 
   To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
 ### PROCEDURE: 
@@ -54,6 +54,18 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+Training Data Set -> Employee Table
+
+![image](https://github.com/VINUTHNA-2004/WDM_EXP1/assets/95067307/5acb2db7-fda7-49bc-ac4f-bc3bc2591888)
+
+Training Data Set-> Weather Table
+
+![image](https://github.com/VINUTHNA-2004/WDM_EXP1/assets/95067307/7e0a7f86-0398-4a3c-aba2-f12b70fbedf0)
+
+
+
+
+
 
 
 ### PREPROCESSING
@@ -76,6 +88,15 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+Employee Table after adding new attribute ADDRESS:
+
+![image](https://github.com/VINUTHNA-2004/WDM_EXP1/assets/95067307/9a514e28-98f9-40ac-a45d-09363c316866)
+
+Weather Table after adding new attribute CLIMATE:
+
+![image](https://github.com/VINUTHNA-2004/WDM_EXP1/assets/95067307/3b5f081a-931d-46c8-b020-74a135368017)
+
+
 ### 2) Remove -> Pre-Processing Technique:
 
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
@@ -92,6 +113,14 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+Employee Table after removing attributes SALARY, GENDER:
+
+![image](https://github.com/VINUTHNA-2004/WDM_EXP1/assets/95067307/60289fe4-f41e-47a2-b09e-f2f21540af79)
+
+Weather Table after removing attributes WINDY, PLAY:
+
+![image](https://github.com/VINUTHNA-2004/WDM_EXP1/assets/95067307/0a1b55ea-cd26-45bb-9706-fcf64e19b46e)
+
 ### Normalize -> Pre-Processing Technique:
 
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
@@ -107,5 +136,14 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+
+Employee Table after Normalizing ID, EXP, PHONE:
+
+![image](https://github.com/VINUTHNA-2004/WDM_EXP1/assets/95067307/038b5e7a-917c-4945-b585-69caaa679d5d)
+
+Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+
+![image](https://github.com/VINUTHNA-2004/WDM_EXP1/assets/95067307/b6c3a436-da26-468b-a541-d2d00112d55a)
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
